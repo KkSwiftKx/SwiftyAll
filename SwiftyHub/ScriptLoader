@@ -1,5 +1,7 @@
 repeat wait() until game:IsLoaded()
-local PlaceId == game.PlaceId
-if PlaceId == 7057682590 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KkSwiftKx/NormalScript/main/SwiftyHub/Climb2000Stairs/Script"))();
+local PlaceId = game.PlaceId
+if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KkSwiftKx/NormalScript/main/SwiftyHub/Climb2000Stairs/Script"))();
+elseif PlaceId == 7057682590 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KkSwiftKx/NormalScript/main/SwiftyHub/Climb2000Stairs/Script"))();
 end
